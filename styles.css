@@ -12,7 +12,7 @@ body {
 header {
     background-color: #007bff; /* Primary color */
     color: #fff; /* White text for contrast */
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     animation: fadeIn 2s ease-in-out; /* Animation for header */
@@ -28,7 +28,7 @@ header h1 {
 
 /* Main content styles */
 main {
-    padding: 2rem;
+    padding: 2px;
 }
 
 /* Section styles */
@@ -43,22 +43,63 @@ main {
     color: #555; /* Slightly lighter text color for body */
 }
 
-.featured-cars h2, .intro h2, .contact h2 {
-    color: #007bff; /* Primary color for section headers */
-    margin-bottom: 1rem;
-    font-size: 1.8rem;
+/* Featured Cars Section */
+.featured-cars {
+    position: relative;
+    width: 100%;
+}
+
+/* Slider heading styles */
+.featured-cars .slider-heading {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    text-align: center;
+    width: 100%; /* Full width to ensure centering */
+    z-index: 10; /* Place above the slider */
+    color: #fff; /* White text color for contrast */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.featured-cars .slider-heading h2 {
+    margin: 0;
+    font-size: 1.8rem; /* Font size for the heading */
+    font-weight: 700;
+    color: #007bff; /* Primary color for section header */
+}
+
+/* Car gallery styles */
+.featured-cars .car-gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.featured-cars .car-gallery .car {
+    width: 100%;
+}
+
+.featured-cars .car-gallery .car img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 /* Car gallery styles */
 .car-gallery {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center; /* Center-aligns cars within the gallery */
+    gap: 1rem;
+    flex-wrap: nowrap;
 }
 
 .car {
-    width: 30%;
-    margin: 1rem;
+    width: 80%; /* Adjust width for car items in the gallery */
+    margin: 0 auto;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: zoomIn 1s ease-out; /* Animation for car elements */
@@ -84,7 +125,7 @@ footer {
     background-color: #007bff; /* Primary color */
     color: #fff; /* White text for contrast */
     text-align: center;
-    padding: 1rem;
+    padding: 0rem;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -94,13 +135,13 @@ footer {
 /* Responsive design adjustments */
 @media (max-width: 768px) {
     .car {
-        width: 45%;
+        width: 90%; /* Adjust width for tablets */
     }
 }
 
 @media (max-width: 480px) {
     .car {
-        width: 100%;
+        width: 100%; /* Full width for mobile */
     }
 }
 
