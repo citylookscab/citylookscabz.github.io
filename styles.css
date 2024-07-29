@@ -28,7 +28,7 @@
 
         /* Main content styles */
         main {
-            padding: 2rem;
+            padding: 0rem;
         }
 
         /* Section styles */
@@ -126,7 +126,7 @@
             background-color: #007bff; /* Primary color */
             color: #fff; /* White text for contrast */
             text-align: center;
-            padding: 1rem;
+            padding: 0rem;
             position: fixed;
             width: 100%;
             bottom: 0;
@@ -147,6 +147,28 @@
         th {
             background-color: #f4f4f4;
         }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #007bff2e; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #007bff2e;
+}
 
         @media (max-width: 768px) {
             table, th, td {
