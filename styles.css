@@ -84,7 +84,7 @@
 
         .featured-cars .car-gallery .car img {
             width: 100%;
-            height: 450px;
+            height: 550px;
             display: block;
             object-fit: cover;
         }
