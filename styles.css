@@ -220,9 +220,9 @@ width: 283px;}
              height:400px;
             }
             .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
-         h1 { font-size: 1rem;}
-          h2{font-size: 15px;}
-         .ultext{font-size: 13px;}
+        header h1, h1 { font-size: 1rem;}
+         header h2, h2 {font-size: 15px;}
+         .ultext {font-size: 13px;}
          .intro p, .contact p{font-size: 13px}
         }
 
@@ -236,9 +236,10 @@ width: 283px;}
              height:167px;
             }
          .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
-          h1 { font-size: 1rem;}
-          h2{font-size: 15px;}
+         header h1,h1 { font-size: 1rem;}
+         header h2,h2 {font-size: 15px;}
          .ultext{font-size: 13px;}
+         .intro p, .contact p{font-size: 13px}
         }
 
         /* Animation keyframes */
