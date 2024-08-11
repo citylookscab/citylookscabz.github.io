@@ -151,6 +151,9 @@
 width: 283px;}
 .float-left{float: left;} 
 .w-50{width: 50%;}
+.text-center{
+  text-align: center;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
