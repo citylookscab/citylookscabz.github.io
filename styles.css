@@ -230,6 +230,11 @@ width: 283px;}
                 width: 100%; /* Full width for mobile */
              height:167px;
             }
+         .featured-cars .slider-heading h2 {
+  
+  font-size: 0.8rem;
+  
+}
         }
 
         /* Animation keyframes */
