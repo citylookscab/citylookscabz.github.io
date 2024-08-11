@@ -84,7 +84,7 @@
 
         .featured-cars .car-gallery .car img {
             width: 100%;
-            height: auto;
+            height: 450px;
             display: block;
             object-fit: cover;
         }
@@ -219,6 +219,7 @@ width: 283px;}
                 width: 100%; /* Full width for mobile */
              height:400px;
             }
+            .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
         }
 
         @media (max-width: 480px) {
@@ -230,11 +231,7 @@ width: 283px;}
                 width: 100%; /* Full width for mobile */
              height:167px;
             }
-         .featured-cars .slider-heading h2 {
-  
-  font-size: 0.8rem;
-  
-}
+         .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
         }
 
         /* Animation keyframes */
