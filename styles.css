@@ -215,10 +215,18 @@ width: 283px;}
                 width: 90%; /* Adjust width for tablets */
               height:500px;
             }
+          .local-packages{
+                width: 100%; /* Full width for mobile */
+             height:400px;
+            }
         }
 
         @media (max-width: 480px) {
             .car {
+                width: 100%; /* Full width for mobile */
+             height:167px;
+            }
+         .local-packages{
                 width: 100%; /* Full width for mobile */
              height:167px;
             }
