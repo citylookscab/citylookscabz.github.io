@@ -223,6 +223,7 @@ width: 283px;}
          h1 { font-size: 1rem;}
           h2{font-size: 15px;}
          .ultext{font-size: 13px;}
+         .intro p, .contact p{font-size: 13px}
         }
 
         @media (max-width: 480px) {
