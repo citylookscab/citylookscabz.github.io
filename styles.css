@@ -222,6 +222,7 @@ width: 283px;}
             .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
          header h1 { font-size: 1rem;}
           header h2{font-size: 15px;}
+         .ultext{font-size: 13px;}
         }
 
         @media (max-width: 480px) {
@@ -236,6 +237,7 @@ width: 283px;}
          .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
          header h1 { font-size: 1rem;}
           header h2{font-size: 15px;}
+         .ultext{font-size: 13px;}
         }
 
         /* Animation keyframes */
