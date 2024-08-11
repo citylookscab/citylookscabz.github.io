@@ -213,12 +213,14 @@ width: 283px;}
         @media (max-width: 768px) {
             .car {
                 width: 90%; /* Adjust width for tablets */
+              height:500px;
             }
         }
 
         @media (max-width: 480px) {
             .car {
                 width: 100%; /* Full width for mobile */
+             height:167px;
             }
         }
 
