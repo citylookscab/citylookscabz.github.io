@@ -159,7 +159,7 @@ width: 200px;}
 .float-RIGHT{float: RIGHT;} 
 .w-50{width: 50%;}
 .text-center{
-  text-align: center;
+  text-align: right;
 }
 /* width */
 ::-webkit-scrollbar {
