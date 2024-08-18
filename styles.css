@@ -84,7 +84,7 @@
 
         .featured-cars .car-gallery .car img {
             width: 100%;
-            height: 550px;
+            height: 200px;
             display: block;
             object-fit: cover;
         }
@@ -113,7 +113,7 @@
         .car-image {
             width: 100%;
             border-radius: 8px;
-            transition: opacity 0.3s ease;
+            transition: opacity 0.2s ease;
         }
 
         .car-image:hover {
@@ -220,15 +220,15 @@ width: 200px;}
         @media (max-width: 768px) {
             .car {
                 width: 90%; /* Adjust width for tablets */
-              height:500px;
+              height:200px;
             }
           .local-packages{
                 width: 100%;
-             height:400px;
+             height:200px;
             }
             .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
         header h1, h1 { font-size: 1rem;}
-         header h2, h2 {font-size: 15px;}
+         header h2, h2 {font-size:10px;}
          .ultext {font-size: 13px;}
          .intro p, .contact p{font-size: 13px}
         }
@@ -261,7 +261,7 @@ width: 200px;}
 
         @keyframes slideIn {
             from {
-                transform: translateY(-20px);
+                transform: translateY(-10px);
                 opacity: 0;
             }
             to {
@@ -273,7 +273,7 @@ width: 200px;}
         @keyframes fadeInUp {
             from {
                 opacity: 0;
-                transform: translateY(20px);
+                transform: translateY(10px);
             }
             to {
                 opacity: 1;
