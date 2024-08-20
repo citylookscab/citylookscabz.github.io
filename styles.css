@@ -88,10 +88,10 @@
         }
 
         .featured-cars .car-gallery .car img {
-            width:60%;
-            height: 580px;
+            width:100%;
+            height: 350px;
             display: block;
-            object-fit: cover;
+            object-fit: contain;
         }
 
         /* Car gallery styles */
