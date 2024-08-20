@@ -161,7 +161,7 @@ width: 283px;}
 }  th, td {
             border: 1px solid #ddd;
             padding: 4px;
-            text-align: RIGHT;
+            text-align: right;
         }
 
         th {
@@ -169,7 +169,7 @@ width: 283px;}
         }
 .01.jpg{height:80px;
 width: 100px;}
-.float-RIGHT{float: RIGHT;} 
+.float-RIGHT{float:right;} 
 .w-50{width: 50%;}
 .text-center{
   text-align: right;
