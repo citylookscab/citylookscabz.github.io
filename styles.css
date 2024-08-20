@@ -58,21 +58,21 @@
         .featured-cars .slider-heading {
             position: absolute;
             top: 100%; /* Center vertically */
-            left:150%;
-            transform: translate(-50%, -50%); /* Center horizontally and vertically */
+            left:200%;
+            transform: translate(-50%, 0%); /* Center horizontally and vertically */
             text-align: center;
-            width: 50%; /* Full width to ensure centering */
+            width: 100%; /* Full width to ensure centering */
             z-index: 10; /* Place above the slider */
             color: #fff; /* White text color for contrast */
             background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
             padding: 1rem;
-            border-radius: 8px;
+            border-radius:10px;
         }
 
         .featured-cars .slider-heading h2 {
             margin: 0;
             font-size: 1.8rem; /* Font size for the heading */
-            font-weight:400;
+            font-weight:500;
             color: #007bff; /* Primary color for section header */
         }
 
@@ -162,7 +162,7 @@ width: 283px;}
 .01.jpg{height:80px;
 width: 100px;}
 .float-RIGHT{float: RIGHT;} 
-.w-50{width: -50%;}
+.w-50{width: 50%;}
 .text-center{
   text-align: right;
 }
@@ -188,7 +188,7 @@ width: 100px;}
   background: #007bff2e;
 }
 
-        @media (max-width: 768px) {
+        @media (max-width: 700px) {
             table, th, td {
                 display: block;
                 width: 100%;
@@ -228,8 +228,8 @@ width: 100px;}
               height:200px;
             }
           .local-packages{
-                width: 100%;
-             height:150px;
+                width:90%;
+             height:120px;
             }
             .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
         header h1, h1 { font-size: 1rem;}
@@ -249,9 +249,9 @@ width: 100px;}
             }
          .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
          header h1,h1 { font-size: 1rem;}
-         header h2,h2 {font-size: 15px;}
-         .ultext{font-size: 13px;}
-         .intro p, .contact p{font-size: 13px}
+         header h2,h2 {font-size: 10px;}
+         .ultext{font-size: 12px;}
+         .intro p, .contact p{font-size: 12px}
         }
 
         /* Animation keyframes */
