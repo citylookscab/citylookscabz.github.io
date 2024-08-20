@@ -158,7 +158,24 @@ width: 283px;}
 .w-50{width: 50%;}
 .text-center{
   text-align: left;
-}  th, td {
+}  
+/* Footer styles */
+        footer {
+            background-color: #007bff; /* Primary color */
+            color: #fff; /* White text for contrast */
+            text-align: right;
+            padding: 0rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+ table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+th, td {
             border: 1px solid #ddd;
             padding: 4px;
             text-align: right;
