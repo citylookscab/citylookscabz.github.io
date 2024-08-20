@@ -57,8 +57,8 @@
         /* Slider heading styles */
         .featured-cars .slider-heading {
             position: absolute;
-            top: 50%; /* Center vertically */
-            left:50%;
+            top: 200%; /* Center vertically */
+            left:200%;
             transform: translate(-50%, -50%); /* Center horizontally and vertically */
             text-align: center;
             width: 100%; /* Full width to ensure centering */
@@ -88,7 +88,7 @@
         }
 
         .featured-cars .car-gallery .car img {
-            width:200%;
+            width:150%;
             height: 100px;
             display: block;
             object-fit: cover;
@@ -116,7 +116,7 @@
         }
 
         .car-image {
-            width: 80%;
+            width: 100%;
             border-radius: 8px;
             transition: opacity 0.2s ease;
         }
@@ -138,9 +138,9 @@
             box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
         }
  table {
-            width: 60%;
+            width: 40%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin: 15px 0;
         }
 
         th, td {
@@ -159,8 +159,8 @@ width: 283px;}
 .text-center{
   text-align: left;
 }
-.01.jpg{height:100px;
-width: 200px;}
+.01.jpg{height:80px;
+width: 100px;}
 .float-RIGHT{float: RIGHT;} 
 .w-50{width: -50%;}
 .text-center{
