@@ -57,8 +57,8 @@
         /* Slider heading styles */
         .featured-cars .slider-heading {
             position: absolute;
-            top: 100%; /* Center vertically */
-            left: 100%;
+            top: 50%; /* Center vertically */
+            left:50%;
             transform: translate(-50%, -50%); /* Center horizontally and vertically */
             text-align: center;
             width: 100%; /* Full width to ensure centering */
@@ -88,8 +88,8 @@
         }
 
         .featured-cars .car-gallery .car img {
-            width: 100%;
-            height: 200px;
+            width:200%;
+            height: 100px;
             display: block;
             object-fit: cover;
         }
@@ -116,7 +116,7 @@
         }
 
         .car-image {
-            width: 100%;
+            width: 80%;
             border-radius: 8px;
             transition: opacity 0.2s ease;
         }
@@ -229,7 +229,7 @@ width: 200px;}
             }
           .local-packages{
                 width: 100%;
-             height:200px;
+             height:150px;
             }
             .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
         header h1, h1 { font-size: 1rem;}
@@ -244,8 +244,8 @@ width: 200px;}
              height:167px;
             }
          .local-packages{
-                width: 100%; /* Full width for mobile */
-             height:167px;
+                width: 90%; /* Full width for mobile */
+             height:120px;
             }
          .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
          header h1,h1 { font-size: 1rem;}
