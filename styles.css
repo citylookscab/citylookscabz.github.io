@@ -158,7 +158,15 @@ width: 283px;}
 .w-50{width: 50%;}
 .text-center{
   text-align: left;
-}
+}  th, td {
+            border: 1px solid #ddd;
+            padding: 4px;
+            text-align: RIGHT;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
 .01.jpg{height:80px;
 width: 100px;}
 .float-RIGHT{float: RIGHT;} 
