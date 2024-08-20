@@ -232,10 +232,10 @@ width: 100px;}
              height:200px;
             }
             .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
-        header h1, h1 { font-size: 5rem;}
-         header h2, h2 {font-size:8px;}
-         .ultext {font-size: 8px;}
-         .intro p, .contact p{font-size: 8px}
+        header h1, h1 { font-size:3rem;}
+         header h2, h2 {font-size:5px;}
+         .ultext {font-size: 5px;}
+         .intro p, .contact p{font-size: 5px}
         }
 
         @media (max-width: 200px) {
@@ -249,9 +249,9 @@ width: 100px;}
             }
          .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
          header h1,h1 { font-size: 3rem;}
-         header h2,h2 {font-size: 8px;}
+         header h2,h2 {font-size: 5px;}
          .ultext{font-size: 5px;}
-         .intro p, .contact p{font-size: 12px}
+         .intro p, .contact p{font-size: 5px}
         }
 
         /* Animation keyframes */
