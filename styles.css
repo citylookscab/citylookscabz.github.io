@@ -27,6 +27,15 @@
 .nav-button:hover {
     background-color: #0056b3;
 }
+/* WhatsApp Button Styles */
+.whatsapp-button {
+    margin-left: 20px;
+}
+
+.whatsapp-button img {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    vertical-align: middle;
         /* Header styles */
         header {
             background-color: #007bff; /* Primary color */
