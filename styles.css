@@ -7,7 +7,26 @@
             color: #333; /* Dark text color for readability */
             overflow-x: hidden; /* Prevent horizontal scroll */
         }
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
 
+.nav-button {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
         /* Header styles */
         header {
             background-color: #007bff; /* Primary color */
