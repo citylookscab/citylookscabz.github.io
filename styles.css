@@ -138,7 +138,7 @@
             box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
         }
  table {
-            width: 50%;
+            width: 100%;
             border-collapse: collapse;
             margin: 15px 0;
         }
