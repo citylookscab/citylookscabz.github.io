@@ -30,6 +30,15 @@
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
             animation: slideIn 0.5s ease-out; /* Animation for heading */
         }
+body {
+  background-image: url('path/to/your/LOGO1.PNG');
+  background-size: width: 250px;
+                   hight: 150px;; /* or LOGO1.PNG */
+  background-position:  top right; /* or top right, etc. */
+  background-attachment: fixed; /* or scroll */
+  background-repeat: no-repeat; /* or repeat-X, repeat-y */
+  background-size: cover;
+}
 
         /* Main content styles */
         main {
