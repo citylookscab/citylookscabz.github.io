@@ -23,6 +23,17 @@
     border-radius: 5px;
     text-align: center;
 }
+header{background-color: #007bff;
+    color: #fff;
+    text-align: right;
+    padding: 0rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
          header h1 {
             margin:font-size: 2.5rem; /* Larger font size for header */
             font-weight: 700;
@@ -155,9 +166,7 @@
 width: 283px;}
 .float-left{float: left;} 
 .w-50{width: 50%;}
-.text-center{
-  text-align: left;
-}  
+ 
 /* Footer styles */
         footer {
             background-color: #007bff; /* Primary color */
@@ -188,7 +197,7 @@ width: 100px;}
 .float-RIGHT{float:right;} 
 .w-50{width: 50%;}
 .text-center{
-  text-align: right;
+  text-align: center;
 }
 /* width */
 ::-webkit-scrollbar {
