@@ -66,8 +66,8 @@ body {
         /* Slider heading styles */
         .featured-cars .slider-heading {
             position: absolute;
-            top: 100%; /* Center vertically */
-            left:200%;
+            top: 200%; /* Center vertically */
+            left:100%;
             transform: translate(50%, 0%); /* Center horizontally and vertically */
             text-align: center;
             width: 100%; /* Full width to ensure centering */
