@@ -148,7 +148,7 @@ main {
         /* Footer styles */
         footer {
             background-color: #007bff; /* Primary color */
-            color: #fff; /* White text for contrast */
+            color: #02110b; /* White text for contrast */
             text-align: center;
             padding: 0rem;
             position: fixed;
@@ -179,8 +179,8 @@ width: 283px;}
 /* Footer styles */
         footer {
             background-color: #007bff; /* Primary color */
-            color: #fff; /* White text for contrast */
-            text-align: right;
+            color: #02110b; /* White text for contrast */
+            text-align:center;
             padding: 0rem;
             position: fixed;
             width: 100%;
