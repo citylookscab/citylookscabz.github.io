@@ -1,19 +1,19 @@
- /* Basic resets and body styles */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f4f8; /* Light background color */
-            color: #333; /* Dark text color for readability */
-            overflow-x: hidden; /* Prevent horizontal scroll */
-        }
+/* Basic resets and body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333; /* Dark text color for readability */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
 .navbar {
     display: flex;
     justify-content: center;
     background-color: #333;
     padding: 10px;
 }
-
 .nav-button {
     color: white;
     text-decoration: none;
@@ -23,10 +23,11 @@
     border-radius: 5px;
     text-align: center;
 }
-header{background-color: #007bff;
+header {
+    background-color: #007bff;
     color: #fff;
     text-align: right;
-    padding: 0rem;
+    padding: 10px; /* Adjust as needed */
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,81 +35,83 @@ header{background-color: #007bff;
 }
 
 
-         header h1 {
-            margin:font-size: 2.5rem; /* Larger font size for header */
-            font-weight: 700;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-            animation: slideIn 0.5s ease-out; /* Animation for heading */
-        }
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Larger font size for header */
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.5s ease-out; /* Animation for heading */
+}
 #book {
-    padding-top: 120px; /* Adjust this value based on your header's height */
+    padding-top: 80px; /* Adjust based on your header's height */
 }
 
-        /* Main content styles */
-        main {
-            padding: 0rem;
-        }
+    /* Main content styles */
+main {
+    padding: 0 1rem; /* Add some padding for readability */
+}
 
 
 
 
-        /* Section styles */
-        .intro, .featured-cars, .contact {
-            margin-bottom: 2rem;
-            animation: fadeInUp 1.5s ease-out; /* Animation for sections */
-        }
+      /* Section styles */
+.intro, .featured-cars, .contact {
+    margin-bottom: 2rem;
+    animation: fadeInUp 1.5s ease-out; /* Animation for sections */
+}
+      .intro p, .contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555; /* Slightly lighter text color for body */
+}
 
-        .intro p, .contact p {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            color: #555; /* Slightly lighter text color for body */
-        }
+/* Featured Cars Section */
+.featured-cars {
+    position: relative;
+    width: 100%;
+}
 
-        /* Featured Cars Section */
-        .featured-cars {
-            position: relative;
-            width: 100%;
-        }
+ .featured-cars .slider-heading {
+    position: absolute;
+    top: 20%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    text-align: center;
+    width: 100%;
+    z-index: 10; /* Place above the slider */
+    color: #fff; /* White text color for contrast */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 1rem;
+    border-radius: 10px;
+} 
 
-        /* Slider heading styles */
-        .featured-cars .slider-heading {
-            position: absolute;
-            top: 200%; /* Center vertically */
-            left:100%;
-            transform: translate(50%, 0%); /* Center horizontally and vertically */
-            text-align: center;
-            width: 100%; /* Full width to ensure centering */
-            z-index: 10; /* Place above the slider */
-            color: #fff; /* White text color for contrast */
-            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-            padding: 1rem;
-            border-radius:10px;
-        }
+  .featured-cars .slider-heading h2 {
+    margin: 0;
+    font-size: 1.8rem; /* Font size for the heading */
+    font-weight: 500;
+    color: #007bff; /* Primary color for section header */
+}
 
-        .featured-cars .slider-heading h2 {
-            margin: 0;
-            font-size: 1.8rem; /* Font size for the heading */
-            font-weight:500;
-            color: #007bff; /* Primary color for section header */
-        }
+ /* Car gallery styles */
+.featured-cars .car-gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: nowrap;
+}
 
-        /* Car gallery styles */
-        .featured-cars .car-gallery {
-            position: relative;
-            width: 100%;
-            overflow: hidden;
-        }
+   .featured-cars .car-gallery .car {
+    width: 100%; /* Full width for each car item */
+    margin: 0 auto;
+}
 
-        .featured-cars .car-gallery .car {
-            width: 100%;
-        }
-
-        .featured-cars .car-gallery .car img {
-            width:100%;
-            height: 350px;
-            display: block;
-            object-fit: contain;
-        }
+   .featured-cars .car-gallery .car img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover; /* Ensure images cover the container */
+}
 
         /* Car gallery styles */
         .car-gallery {
@@ -276,72 +279,86 @@ form { text-align: left;
               width: 100%; /* Adjust width for tablets */
               height:200px;
             }
-          .local-packages{
-             width:100%;
-             height:200px;
-            }
-       .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
+         
+ /* Local packages section */
+.local-packages {
+    width: 100%;
+    height: 200px; /* Adjust as needed */
+}
+        der-heading h2 {   font-size: 0.8rem;  }
         header h1, h1 { font-size:3rem;}
         header h2, h2 {font-size:5px;}
        .ultext {font-size: 5px;}
        .intro p, .contact p{font-size: 5px}
         }
 
-       @media (max-width: 200px) {
-            .car {
-             width: 100%; /* Full width for mobile */
-             height:200px;
+/* Responsive design */
+@media (max-width: 768px) {
+    .car {
+        width: 100%;
+        height: 200px;
+    }
+ 
+   .local-packages {
+        height: auto; /* Adjust height based on content */
+    }
             }
-         .local-packages{
-             width: 100%; /* Full width for mobile */
-             height:200px;
-            }
-         .featured-cars .slider-heading h2 {   font-size: 0.8rem;  }
-         header h1,h1 { font-size: 3rem;}
+
+    .featured-cars .slider-heading h2 {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+
+   header h1 {
+        font-size: 2rem;
+    }
+
          header h2,h2 {font-size: 5px;}
          .ultext{font-size: 5px;}
-         .intro p, .contact p{font-size: 5px}
-        }
 
-        /* Animation keyframes */
-        @keyframes fadeIn {
-            from {
-              opacity: 0;
-            }
-            to {
-               opacity: 1;
-            }
-        }
+  .intro p, .contact p {
+        font-size: 1rem;
+    }
+}
 
-        @keyframes slideIn {
-            from {
-                transform: translateY(-10px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
+ /* Animation keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+ 
+@keyframes slideIn {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
-        @keyframes zoomIn {
-            from {
-                opacity: 0;
-                transform: scale(0.9);
-            }
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
