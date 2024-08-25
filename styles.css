@@ -194,7 +194,7 @@ width: 283px;}
         }
 th, td {
             border: 1px solid #ddd;
-            padding: 4px;
+            padding: 10px;
             text-align: right;
         }
 
@@ -288,8 +288,8 @@ form { text-align: left;
         der-heading h2 {   font-size: 0.8rem;  }
         header h1, h1 { font-size:3rem;}
         header h2, h2 {font-size:20px;}
-       .ultext {font-size:10px;}
-       .intro p, .contact p{font-size: 10px}
+       .ultext {font-size:14px;}
+       .intro p, .contact p{font-size: 14px}
         }
 
 /* Responsive design */
@@ -313,7 +313,7 @@ form { text-align: left;
     }
 
          header h2,h2 {font-size: 20px;}
-         .ultext{font-size:10px;}
+         .ultext{font-size:14px;}
 
   .intro p, .contact p {
         font-size: 1rem;
