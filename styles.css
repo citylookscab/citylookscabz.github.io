@@ -19,17 +19,18 @@ body {
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 10px;
-    background-color: #007bff;
+    background-color:#08386d;
     border-radius: 5px;
     text-align: center;
 }
 header {
-    background-color: #007bff;
+    background-color: #08386d;
     color: #fff;
     text-align: left;
     padding: 10px; /* Adjust as needed */
     position: fixed;
     width: 100%;
+    height: 200px;
     top: 0;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -163,7 +164,7 @@ main {
 
         /* Footer styles */
         footer {
-            background-color: #007bff; /* Primary color */
+            background-color: #08386d; /* Primary color */
             color: #02110b; /* White text for contrast */
             text-align: center;
             padding: 0rem;
@@ -194,7 +195,7 @@ width: 283px;}
  
 /* Footer styles */
         footer {
-            background-color: #007bff; /* Primary color */
+            background-color: #08386d; /* Primary color */
             color: #02110b; /* White text for contrast */
             text-align:center;
             padding: 0rem;
