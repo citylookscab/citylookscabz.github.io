@@ -268,6 +268,7 @@ width: 100px;}
 }
 
         @media (max-width: 700px) {
+ header h1 {font-size: 1.5rem;}
  #book {
         padding-top: 100px; /* Ensure sufficient padding for mobile */
     }
@@ -309,6 +310,7 @@ form { text-align: left;
         }
         /* Responsive design adjustments */
         @media (max-width:200px) {
+header h1 {font-size: 1rem;}   
  #book {
         padding-top: 80px; /* Ensure sufficient padding for mobile */
     }
