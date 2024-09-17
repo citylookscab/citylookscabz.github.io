@@ -27,14 +27,34 @@ header {
     background-color: #08386d;
     color: #fff;
     text-align: left;
-    padding: 10px; /* Adjust as needed */
-    position: fixed;
+    padding: 7px; /* Adjust as needed */
     width: 100%;
-    height: 200px;
     top: 0;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
+header a:-webkit-any-link {
+    color:#fff;
+    cursor: pointer;
+    text-decoration:none;
+   
+}
+header ul
+{ 
+overflow-x:hidden;
+white-space:nowrap; 
+padding-inline-start: 0;
+width: 100%;
+text-align:right;
+color:#fff;
+}
+
+header li
+{ 
+display:inline;
+color:#fff; 
+margin-right: 10px;
+} 
 
 header h1 {
     margin: 0;
